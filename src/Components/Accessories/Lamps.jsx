@@ -312,7 +312,7 @@ const Lamps = () => {
             {/* Filter heading */}
             <div
               className="offcanvas-header p-0 pb-2 border-bottom customHeight"
-              
+          
             >
               <div>
                 <h5
