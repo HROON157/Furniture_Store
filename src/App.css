@@ -410,7 +410,7 @@ input.searchInput {
 
 /* CATEGORY  LAYOUT  */
 
-.card_ {
+/* .card_ {
   border: 1px solid #ccc;
   border-radius: 8px;
   transition: transform 0.3s ease-in-out;
@@ -423,7 +423,49 @@ input.searchInput {
 .card-img-top_ {
   object-fit: cover;
   height: auto;
+} */
+
+/* Default card styling */
+.card_2 {
+  width: 100%; /* Set full width by default */
+  max-width: 250px; /* Control maximum width */
 }
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .card_2 {
+    width: 100%;
+    max-width: 350px; /* Adjust width for smaller screens */
+    margin: 0 auto; /* Center the card */
+  }
+}
+
+
+
+
+
+
+/* ProductCarousel.css */
+.card_ {
+  width: 100%; /* Make cards full width */
+  max-width: 300px; /* Set max width to keep them narrow */
+  transition: transform 0.3s ease;
+
+}
+
+.card:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+
+
+
+
+
+
+
+
+
 
 /* Video Styling */
 
